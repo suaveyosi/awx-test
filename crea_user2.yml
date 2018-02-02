@@ -1,0 +1,12 @@
+---
+- name: Crea usuario
+  hosts: all
+
+  tasks:
+
+  - name: Crea usuario
+    user:
+      name: test_user2
+      comment: "User de test"
+      uid: "601"
+      group: "601"
